@@ -1,0 +1,32 @@
+Codes are written in .ipynb
+Submission format
+	Codes
+		contains codes and necessary files to run them
+	Weight_URL
+		contains URL to my github repo containing weight parameters
+		of the trained networks
+		Though downloading weights are not required as, I have saved necessary
+		files in the codes folder itself
+	
+
+Task a
+	Run as python 14EC35002_Assignment2_task_a.py
+	Output: 
+		Training/Testing loss/accuracy for Network 1 and 2
+		Plots of comparison and .params files
+		vanilla_net1.params and vanilla_net2.params
+		Weights will be stored in the same folder, 
+		required for Task c
+
+Task b
+	Run as python 14EC35002_Assignment2_task_b.py
+	Output:
+		Plots and 10 Epochs results for Exp 1,2,3 and 4
+		Params files
+
+Task c
+	Run as python 14EC35002_Assignment2_task_c.py
+	Input: 
+		Params and JSON file generaated from Task a
+	Output:
+		Classification Accuraacy for Input images, Hidden Layer 1,2 and 3 
